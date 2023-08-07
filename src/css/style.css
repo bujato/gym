@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@300;400;600&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------- */
+
+#primeira-pagina {
+    background: url(/src/imgs/bg-peso.jpeg) center no-repeat;
+    background-size: cover;
+    height: 650px;
+    width: 100%;
+}
+
+.marca {
+    color: #F9EF23;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+    padding: 40px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 90px;
+    letter-spacing: 3px;
+    padding: 5%;
+}
+
+.caixa-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F9EF23;
+    font-size: 15px;
+    width: 150px;
+    height: 70px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+/* ---------------------- */
+
+#segunda-pagina {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #141414;
+    height: 850px;
+    width: 100%;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 550px;
+    padding: 55px;
+}
+
+.sobre-empresa {
+    color: #F9EF23;
+    font-size: 55px;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 25px;
+}
+
+.descricao {
+    color: #fff;
+    width: 300px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.saiba-mais {
+    color: #fff;
+}
+
+.imgs-page-two {
+    display: flex;
+    flex-direction: row;
+}
+
+.img-div-um, .img-div-dois{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.img-um,
+.img-dois {
+    width: 350px;
+    height: 500px;
+}
+
+/* ---------------------- */
+
+#terceira-pagina {
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    height: 100%;
+    width: 100%;
+}
+
+.oferecemos {
+    color: #F9EF23;
+    font-size: 55px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.des-oferencimento{
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    margin-bottom: 60px;
+}
+
+.imgs-agrupadas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin-bottom: 60px;
+}
+
+.img-div-tres {
+    background: url(/src/imgs/halteres.jpeg) center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    word-wrap: break-word;
+}
+
+.img-div-quatro {
+    background: url(/src/imgs/pulando-corda.jpeg) center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    word-wrap: break-word;
+}
+
+.img-div-cinco {
+    background: url(/src/imgs/menina-luta.jpeg) center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    color: #fff;
+    font-family: 'Anton', sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    word-wrap: break-word;
+}
+
+/* ---------------------- */
+
+#quarta-pagina {
+    display: flex;
+    flex-direction: column;
+    background-color: #141414;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo-pagina-quatro {
+    color: #F9EF23;
+    font-size: 55px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+
+#quarta-pagina img {
+    height: 220px;
+    width: 390px;
+}
+
+#alunos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.sobre-laura, .sobre-luana, .sobre-tomas {
+    padding: 20px;
+}
+
+.laura, .luana, .tomas{
+    display: flex;
+    flex-direction: column;
+    background-color: #F9EF23;
+    font-family: 'Roboto', sans-serif;
+    width: 390px;
+    height: 400px;
+    word-break: break-all;
+    margin-bottom: 60px;
+}
+
+/* ---------------------- */
+
+footer {
+    background: url(/src/imgs/background.jpeg) center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.entre-em-contato {
+    padding: 10%;
+    font-size: 50px;
+    letter-spacing: 1.5px;
+    font-family: 'Anton', sans-serif;
+    color: #F9EF23;
+}
+
+.contatos {
+    background-color: #F9EF23;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    height: 100%;
+    width: 100%;
+    padding: 5em;
+}

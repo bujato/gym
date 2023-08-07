@@ -1,0 +1,43 @@
+@media (max-width: 980px) {
+    #title {
+        text-align: center;
+    }
+  
+    #segunda-pagina {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .imgs-page-two {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .img-div-um, 
+    .img-div-dois{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imgs-agrupadas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #alunos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contatos {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+}
